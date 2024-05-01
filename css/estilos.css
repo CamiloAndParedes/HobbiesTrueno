@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    color:whitesmoke;
+}
+header a{
+    padding-left: 15px;
+}
+header form{
+    width: 250px !important;
+}
+header input{
+    margin-right: 10px;
+}
+.titulo{
+    color:#FFC107;
+}
+.banner{
+    height: 300px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    background-color: aquamarine;
+}
+.bannerUno{
+    background-image: url(/imagenes/bannerHobbiesTrueno.jpg);
+}
+.bannerDos{
+    background-image: url(/imagenes/bannerHobbiesTruenoCatalogo.jpg);
+}
+.bannerTres{
+    background-image: url(/imagenes/bannerHobbiesTruenoColeccionistas.jpg);
+}
+.bannerCuatro{
+    background-image: url(/imagenes/bannerHobbiesTruenoSobreNosotros.jpg);
+}
+.bannerCinco{
+    background-image: url(/imagenes/bannerHobbiesTruenoContacto.jpg);
+}
+.card-img-top{
+    width: 100% !important; 
+    height: 100% !important;
+}
+.card-text{
+    font-size: large;
+    font-weight: bolder;
+}
+.cont{
+    height: 470px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border: 3px solid #FFC107;
+}
+.contProd{
+    height: 390px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border: 3px solid #FFC107;
+}
+.prod1{
+    background-image: url(/imagenes/prod1.jpg);
+    background-repeat: no-repeat;
+}
+.prod2{
+    background-image: url(/imagenes/prod2.jpg);
+    background-repeat: no-repeat;
+}
+.prod3{
+    background-image: url(/imagenes/prod3.jpg);
+    background-repeat: no-repeat;
+}
+.prods{
+    background-color: #FFC107;
+    text-align: center;
+    padding: 10px;
+}
+.prods button{
+    background-color: #212529;
+    padding: 5px;
+    border: none;
+}
+.prods button:hover{
+    background-color:grey;
+}
+.nosotros{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 3px solid #FFC107;
+    background-color: whitesmoke;
+    text-align: center;
+}
+h2{
+    color: #A30D91;
+}
+p{
+    color: black;
+}
+iframe{
+    padding-top: 15px;
+    height: 135px;
+}
+h5{
+    padding-top: 15px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
