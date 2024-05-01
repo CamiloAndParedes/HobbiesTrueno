@@ -19,7 +19,7 @@ header input{
     color:#FFC107;
 }
 .banner{
-    height: 300px;
+    height: 350px;
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -27,19 +27,19 @@ header input{
     background-color: aquamarine;
 }
 .bannerUno{
-    background-image: url(/imagenes/bannerHobbiesTrueno.jpg);
+    background-image: url(../imagenes/bannerHobbiesTrueno.jpg);
 }
 .bannerDos{
-    background-image: url(/imagenes/bannerHobbiesTruenoCatalogo.jpg);
+    background-image: url(../imagenes/bannerHobbiesTruenoCatalogo.jpg);
 }
 .bannerTres{
-    background-image: url(/imagenes/bannerHobbiesTruenoColeccionistas.jpg);
+    background-image: url(../imagenes/bannerHobbiesTruenoColeccionistas.jpg);
 }
 .bannerCuatro{
-    background-image: url(/imagenes/bannerHobbiesTruenoSobreNosotros.jpg);
+    background-image: url(../imagenes/bannerHobbiesTruenoSobreNosotros.jpg);
 }
 .bannerCinco{
-    background-image: url(/imagenes/bannerHobbiesTruenoContacto.jpg);
+    background-image: url(../imagenes/bannerHobbiesTruenoContacto.jpg);
 }
 .card-img-top{
     width: 100% !important; 
@@ -66,15 +66,15 @@ header input{
     border: 3px solid #FFC107;
 }
 .prod1{
-    background-image: url(/imagenes/prod1.jpg);
+    background-image: url(../imagenes/prod1.jpg);
     background-repeat: no-repeat;
 }
 .prod2{
-    background-image: url(/imagenes/prod2.jpg);
+    background-image: url(../imagenes/prod2.jpg);
     background-repeat: no-repeat;
 }
 .prod3{
-    background-image: url(/imagenes/prod3.jpg);
+    background-image: url(../imagenes/prod3.jpg);
     background-repeat: no-repeat;
 }
 .prods{
