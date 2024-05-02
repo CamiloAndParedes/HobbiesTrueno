@@ -98,9 +98,15 @@ header input{
     text-align: center;
 }
 h2{
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: #A30D91;
+    text-align: center;
 }
 p{
+    color: black;
+}
+.texto{
     color: black;
 }
 iframe{
@@ -113,4 +119,7 @@ h5{
 .container ul li a{
     text-decoration: none;
     color: whitesmoke;
+}
+footer{
+    margin-top: 100px;
 }
