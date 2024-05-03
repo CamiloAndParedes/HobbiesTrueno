@@ -49,14 +49,19 @@ header input{
     font-size: large;
     font-weight: bolder;
 }
-.cont{
+.productos{
+    padding-top: 20px;
+    margin-top: 20PX;
+    background-color: #FFC107;
+}
+/* .cont{
     height: 470px;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 100px;
     border: 3px solid #FFC107;
-}
+} */
 .contProd{
     height: 390px;
     background-position: center;
@@ -80,7 +85,7 @@ header input{
 .prods{
     background-color: #FFC107;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 20px;
 }
 .prods button{
     background-color: #212529;
@@ -93,7 +98,8 @@ header input{
 .nosotros{
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 3px solid #FFC107;
+    border: 5px solid #FFC107;
+    border-radius: 100px;
     background-color: whitesmoke;
     text-align: center;
 }
