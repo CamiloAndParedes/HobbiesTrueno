@@ -96,6 +96,9 @@ header input{
     background-color: whitesmoke;
     text-align: center;
 }
+.card-img-top{
+    color: black;
+}
 h2{
     padding-top: 25px;
     padding-bottom: 25px;
