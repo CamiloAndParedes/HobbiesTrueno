@@ -111,6 +111,15 @@ h2{
 p{
     color: black;
 }
+.nosotrosp{
+    text-align: center;
+    text-align: justify;
+    font-weight: bold;
+}
+.imgnosotros{
+    padding: 20;
+    margin: 100px;
+}
 .texto{
     color: black;
 }
