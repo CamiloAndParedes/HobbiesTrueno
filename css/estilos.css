@@ -9,7 +9,11 @@
 .titulo{
     color:#FFC107;
 }
+.container-fluid{
+    padding: 0 ;
+}
 .banner{
+    width: 100%;
     height: 350px;
     background-position: center;
     background-size:cover;
