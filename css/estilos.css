@@ -6,15 +6,6 @@
     font-family: "Lato", sans-serif;
     color:whitesmoke;
 }
-header a{
-    padding-left: 15px;
-}
-header form{
-    width: 250px !important;
-}
-header input{
-    margin-right: 10px;
-}
 .titulo{
     color:#FFC107;
 }
