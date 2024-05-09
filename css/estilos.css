@@ -118,8 +118,10 @@ p{
     font-weight: bold;
 }
 .imgnosotros{
-    padding: 20;
-    margin: 100px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15%;
 }
 .texto{
     color: black;
