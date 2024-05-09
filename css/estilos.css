@@ -9,8 +9,14 @@
 .titulo{
     color:#FFC107;
 }
+header button{
+    margin-right: 15px;
+}
+.navbar-brand{
+    margin-left: 15px;
+}
 .container-fluid{
-    padding: 0 ;
+    padding: 0 !important;
 }
 .banner{
     width: 100%;
