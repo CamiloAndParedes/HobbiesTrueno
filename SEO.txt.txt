@@ -1,0 +1,2 @@
+1- Alt a todas las imágenes de los sitios
+2- Título y desc. en cada página (Head) 
