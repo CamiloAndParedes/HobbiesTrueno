@@ -1,146 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
-    color:whitesmoke;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-.titulo{
-    color:#FFC107;
+
+.titulo {
+  color: #FFC107;
 }
-header button{
-    margin-right: 15px;
+
+header button {
+  margin-right: 15px;
 }
-.navbar-brand{
-    margin-left: 15px;
+
+.navbar-brand {
+  margin-left: 15px;
 }
-.container-fluid{
-    padding: 0 !important;
+
+.container-fluid {
+  padding: 0 !important;
 }
-.banner{
-    width: 100%;
-    height: 350px;
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    margin-top: 30px;
-    background-color: aquamarine;
+
+.banner {
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  background-color: aquamarine;
 }
-.bannerUno{
-    background-image: url(../imagenes/bannerHobbiesTrueno.jpg);
+
+.bannerUno {
+  background-image: url(../imagenes/bannerHobbiesTrueno.jpg);
 }
-.bannerDos{
-    background-image: url(../imagenes/bannerHobbiesTruenoCatalogo.jpg);
+
+.bannerDos {
+  background-image: url(../imagenes/bannerHobbiesTruenoCatalogo.jpg);
 }
-.bannerTres{
-    background-image: url(../imagenes/bannerHobbiesTruenoColeccionistas.jpg);
+
+.bannerTres {
+  background-image: url(../imagenes/bannerHobbiesTruenoColeccionistas.jpg);
 }
-.bannerCuatro{
-    background-image: url(../imagenes/bannerHobbiesTruenoSobreNosotros.jpg);
+
+.bannerCuatro {
+  background-image: url(../imagenes/bannerHobbiesTruenoSobreNosotros.jpg);
 }
-.bannerCinco{
-    background-image: url(../imagenes/bannerHobbiesTruenoContacto.jpg);
+
+.bannerCinco {
+  background-image: url(../imagenes/bannerHobbiesTruenoContacto.jpg);
 }
-.card-img-top{
-    width: 100% !important; 
-    height: 100% !important;
+
+.card-img-top {
+  width: 100% !important;
+  height: 100% !important;
 }
-.card-text{
-    font-size: large;
-    font-weight: bolder;
+
+.card-text {
+  font-size: large;
+  font-weight: bolder;
 }
-.productos{
-    padding-top: 20px;
-    margin-top: 20PX;
-    background-color: #FFC107;
+
+.productos {
+  padding-top: 20px;
+  margin-top: 20PX;
+  background-color: #FFC107;
 }
-.contProd{
-    height: 390px;
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    border: 3px solid #FFC107;
+
+.contProd {
+  height: 390px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  border: 3px solid #FFC107;
 }
-.prod1{
-    background-image: url(../imagenes/prod1.jpg);
-    background-repeat: no-repeat;
+
+.prod1 {
+  background-image: url(../imagenes/prod1.jpg);
+  background-repeat: no-repeat;
 }
-.prod2{
-    background-image: url(../imagenes/prod2.jpg);
-    background-repeat: no-repeat;
+
+.prod2 {
+  background-image: url(../imagenes/prod2.jpg);
+  background-repeat: no-repeat;
 }
-.prod3{
-    background-image: url(../imagenes/prod3.jpg);
-    background-repeat: no-repeat;
+
+.prod3 {
+  background-image: url(../imagenes/prod3.jpg);
+  background-repeat: no-repeat;
 }
-.prods{
-    padding-top: 10px;
-    background-color: #FFC107;
-    text-align: center;
-    padding-bottom: 20px;
+
+.prods {
+  padding-top: 10px;
+  background-color: #FFC107;
+  text-align: center;
+  padding-bottom: 20px;
 }
-.prods button{
-    background-color: #212529;
-    padding: 5px;
-    border: none;
+
+.prods button {
+  background-color: #666666;
+  padding: 5px;
+  border: none;
 }
-.prods button:hover{
-    background-color:grey;
+
+.prods button:hover {
+  background-color: grey;
 }
-.nosotros{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border: 5px solid #FFC107;
-    border-radius: 100px;
-    background-color: whitesmoke;
-    text-align: center;
+
+.nosotros {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 5px solid #FFC107;
+  border-radius: 100px;
+  background-color: whitesmoke;
+  text-align: center;
 }
-.card-img-top{
-    color: black;
+
+.card-img-top {
+  color: black;
 }
-h2{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: #A30D91;
-    text-align: center;
+
+h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #A30D91;
+  text-align: center;
 }
-.info{
-    text-align: center;
+
+.info {
+  text-align: center;
 }
-p{
-    color: black;
+
+p {
+  color: black;
 }
-.nosotrosp{
-    text-align: center;
-    text-align: justify;
-    font-weight: bold;
+
+.nosotrosp {
+  text-align: center;
+  text-align: justify;
+  font-weight: bold;
 }
-.imgnosotros{
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-    border-radius: 15%;
+
+.imgnosotros {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius: 15%;
 }
-.texto{
-    color: black;
-    padding-top: 15px;
+
+.texto {
+  color: black;
+  padding-top: 15px;
 }
-iframe{
-    padding-top: 15px;
-    height: 135px;
+
+iframe {
+  padding-top: 15px;
+  height: 135px;
 }
-h5{
-    padding-top: 15px;
+
+h5 {
+  padding-top: 15px;
 }
-.container ul li a{
-    text-decoration: none;
-    color: whitesmoke;
+
+.container ul li a {
+  text-decoration: none;
+  color: whitesmoke;
 }
-.containerform{
-    padding: 100px;    
+
+.containerform {
+  padding: 100px;
 }
-footer{
-    margin-top: 100px;
+
+footer {
+  margin-top: 100px;
 }
+
+/*# sourceMappingURL=estilos.css.map */
