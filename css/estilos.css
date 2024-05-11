@@ -29,7 +29,6 @@ header button {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 30px;
-  background-color: aquamarine;
 }
 
 .bannerUno {
@@ -106,7 +105,7 @@ header button {
 }
 
 .prods button:hover {
-  background-color: grey;
+  background-color: #666666;
 }
 
 .nosotros {
@@ -114,12 +113,11 @@ header button {
   margin-bottom: 100px;
   border: 5px solid #FFC107;
   border-radius: 100px;
-  background-color: whitesmoke;
   text-align: center;
 }
 
 .card-img-top {
-  color: black;
+  color: #212529;
 }
 
 h2 {
@@ -134,7 +132,7 @@ h2 {
 }
 
 p {
-  color: black;
+  color: #212529;
 }
 
 .nosotrosp {
@@ -151,7 +149,7 @@ p {
 }
 
 .texto {
-  color: black;
+  color: #212529;
   padding-top: 15px;
 }
 
@@ -166,7 +164,6 @@ h5 {
 
 .container ul li a {
   text-decoration: none;
-  color: whitesmoke;
 }
 
 .containerform {

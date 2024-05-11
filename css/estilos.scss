@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-//variables//
+//variables colores//
 $bgcolor1:#FFC107;
 $bgcolor2: #666666;
 $textcolor:#212529;
-
+$titlescolor:#A30D91;
+//variables estilo//
 *{
     padding: 0;
     margin: 0;
@@ -30,7 +31,6 @@ header button{
     background-size:cover;
     background-repeat: no-repeat;
     margin-top: 30px;
-    background-color: aquamarine;
 }
 .bannerUno{
     background-image: url(../imagenes/bannerHobbiesTrueno.jpg);
@@ -58,7 +58,7 @@ header button{
 .productos{
     padding-top: 20px;
     margin-top: 20PX;
-    background-color: #FFC107;
+    background-color:$bgcolor1;
 }
 .contProd{
     height: 390px;
@@ -66,7 +66,7 @@ header button{
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 20px;
-    border: 3px solid #FFC107;
+    border: 3px solid $bgcolor1;
 }
 .prod1{
     background-image: url(../imagenes/prod1.jpg);
@@ -82,7 +82,7 @@ header button{
 }
 .prods{
     padding-top: 10px;
-    background-color: #FFC107;
+    background-color: $bgcolor1;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -92,30 +92,29 @@ header button{
     border: none;
 }
 .prods button:hover{
-    background-color:grey;
+    background-color:$bgcolor2;
 }
 .nosotros{
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 5px solid #FFC107;
+    border: 5px solid $bgcolor1;
     border-radius: 100px;
-    background-color: whitesmoke;
     text-align: center;
 }
 .card-img-top{
-    color: black;
+    color: $textcolor;
 }
 h2{
     padding-top: 25px;
     padding-bottom: 25px;
-    color: #A30D91;
+    color:$titlescolor;
     text-align: center;
 }
 .info{
     text-align: center;
 }
 p{
-    color: black;
+    color:$textcolor;
 }
 .nosotrosp{
     text-align: center;
@@ -129,7 +128,7 @@ p{
     border-radius: 15%;
 }
 .texto{
-    color: black;
+    color:$textcolor;
     padding-top: 15px;
 }
 iframe{
@@ -139,9 +138,14 @@ iframe{
 h5{
     padding-top: 15px;
 }
-.container ul li a{
-    text-decoration: none;
-    color: whitesmoke;
+.container{
+    ul{
+        li{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
 }
 .containerform{
     padding: 100px;    
