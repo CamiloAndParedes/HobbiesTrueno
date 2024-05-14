@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 //variables colores//
 $bgcolor1:#FFC107;
 $bgcolor2: #666666;
 $textcolor:#212529;
 $titlescolor:#A30D91;
-//variables estilo//
+
+//variables fuentes//
+$font1:"Lato", sans-serif;
+$font2:"Open Sans", sans-serif;
+//agregar calculos//
 *{
     padding: 0;
     margin: 0;
@@ -101,6 +105,9 @@ header button{
     border-radius: 100px;
     text-align: center;
 }
+.parrafo{
+    font-family: $font2;
+}
 .card-img-top{
     color: $textcolor;
 }
@@ -117,6 +124,7 @@ p{
     color:$textcolor;
 }
 .nosotrosp{
+    font-family: $font2;
     text-align: center;
     text-align: justify;
     font-weight: bold;
