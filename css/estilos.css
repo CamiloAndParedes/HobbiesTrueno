@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
 }
 
 .titulo {
@@ -57,6 +56,11 @@ header button {
   height: 100% !important;
 }
 
+.hover:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .card-text {
   font-size: large;
   font-weight: bolder;
@@ -77,21 +81,6 @@ header button {
   border: 3px solid #FFC107;
 }
 
-.prod1 {
-  background-image: url(../imagenes/prod1.jpg);
-  background-repeat: no-repeat;
-}
-
-.prod2 {
-  background-image: url(../imagenes/prod2.jpg);
-  background-repeat: no-repeat;
-}
-
-.prod3 {
-  background-image: url(../imagenes/prod3.jpg);
-  background-repeat: no-repeat;
-}
-
 .prods {
   padding-top: 10px;
   background-color: #FFC107;
@@ -100,13 +89,14 @@ header button {
 }
 
 .prods button {
-  background-color: #666666;
+  background-color: #dadada;
   padding: 5px;
   border: none;
 }
 
 .prods button:hover {
-  background-color: #666666;
+  background-color: #bd15a9;
+  transition: 0.2s;
 }
 
 .nosotros {
@@ -126,9 +116,10 @@ header button {
 }
 
 h2 {
+  font-family: "Lato", sans-serif;
   padding-top: 25px;
   padding-bottom: 25px;
-  color: #A30D91;
+  color: #bd15a9;
   text-align: center;
 }
 

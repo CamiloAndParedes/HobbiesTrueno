@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-//variables colores//
-$bgcolor1:#FFC107;
-$bgcolor2: #666666;
-$textcolor:#212529;
-$titlescolor:#A30D91;
-
-//variables fuentes//
-$font1:"Lato", sans-serif;
-$font2:"Open Sans", sans-serif;
-//agregar calculos//
+@import "partials";
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
 }
 .titulo{
     color:$bgcolor1;
@@ -55,6 +45,10 @@ header button{
     width: 100% !important; 
     height: 100% !important;
 }
+.hover:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
 .card-text{
     font-size: large;
     font-weight: bolder;
@@ -72,18 +66,6 @@ header button{
     margin-top: 20px;
     border: 3px solid $bgcolor1;
 }
-.prod1{
-    background-image: url(../imagenes/prod1.jpg);
-    background-repeat: no-repeat;
-}
-.prod2{
-    background-image: url(../imagenes/prod2.jpg);
-    background-repeat: no-repeat;
-}
-.prod3{
-    background-image: url(../imagenes/prod3.jpg);
-    background-repeat: no-repeat;
-}
 .prods{
     padding-top: 10px;
     background-color: $bgcolor1;
@@ -96,7 +78,8 @@ header button{
     border: none;
 }
 .prods button:hover{
-    background-color:$bgcolor2;
+    background-color:$bgcolor3;
+    transition: .2s;
 }
 .nosotros{
     margin-top: 100px;
@@ -112,6 +95,7 @@ header button{
     color: $textcolor;
 }
 h2{
+    font-family: $font1;
     padding-top: 25px;
     padding-bottom: 25px;
     color:$titlescolor;
