@@ -1,2 +1,7 @@
-1- Alt a todas las imágenes de los sitios
-2- Título y desc. en cada página (Head) 
+-Etiqueta Meta keywords en cada HTML.
+-Etiqueta Meta description en cada HTML.
+-Alt apropiado para las imágenes.
+-Nombres bajo camel case.
+-Imágenes bajo 1 MB.
+-Partial con codigo separado del archivo SASS principal.
+-Ciclos For para hovers.

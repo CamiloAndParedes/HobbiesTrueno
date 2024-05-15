@@ -1,9 +1,45 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@mixin grayscale{
+    filter: grayscale(100%);
+}
 
 $bgcolor1:#FFC107;
 $bgcolor2: #dadada;
 $bgcolor3: #bd15a9;
 $textcolor:#212529;
 $titlescolor:#bd15a9;
-
 $font1:"Lato", sans-serif;
 $font2:"Open Sans", sans-serif;
+
+.container{
+    ul{ list-style: none;
+        li{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.prods button:hover{
+    background-color:$bgcolor2;
+    transition: .2s;
+}
+
+@for $i from 1 through 2 {
+    .imgnosotros:hover{
+        transform: scale(1.2);
+        transition: .2s;
+        @include grayscale;
+    }
+}
+
+@for $i from 1 through 2{
+    .card-img-top:hover{
+        transform: scale(1.1);
+        transition: 1.1s;
+    }
+}
