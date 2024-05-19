@@ -25,13 +25,16 @@ $font2:"Open Sans", sans-serif;
     }
 }
 .prods button:hover{
-    background-color:$bgcolor2;
-    transition: .2s;
+    background-color:$bgcolor3;
 }
-
+.prods button:active {
+    background-color: $bgcolor3;
+    box-shadow: 0 3px $textcolor;
+    transform: translateY(4px);
+}
 @for $i from 1 through 2 {
     .imgnosotros:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: .2s;
         @include grayscale;
     }

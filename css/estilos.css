@@ -8,18 +8,23 @@
 }
 
 .prods button:hover {
-  background-color: #dadada;
-  transition: 0.2s;
+  background-color: #bd15a9;
+}
+
+.prods button:active {
+  background-color: #bd15a9;
+  box-shadow: 0 3px #212529;
+  transform: translateY(4px);
 }
 
 .imgnosotros:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.2s;
   filter: grayscale(100%);
 }
 
 .imgnosotros:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.2s;
   filter: grayscale(100%);
 }
@@ -123,7 +128,7 @@ header button {
 }
 
 .prods button {
-  background-color: #dadada;
+  background-color: #bd15a9;
   padding: 5px;
   border: none;
 }
