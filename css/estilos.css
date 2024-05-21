@@ -45,6 +45,10 @@
   box-sizing: border-box;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 .titulo {
   color: #FFC107;
 }
